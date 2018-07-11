@@ -48,18 +48,23 @@ end
 
 def run 
   help
-  puts "Please enter a command:"
-  command = gets.chomp 
   until command == "exit" 
+    
+    puts "Please enter a command:"
+    command = gets.chomp 
+    
     case command
       
       when "list"
         list songs 
       when "help"
         help 
+      when "play"
+        play songs
       when "exit"
-        exit 
+        exit_jukebox 
       
+    end
     
     end
   end
