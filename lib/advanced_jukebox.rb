@@ -66,7 +66,7 @@ def run(my_songs)
     case command
       
       when "list"
-        list songs 
+        list my_songs 
       when "help"
         help 
       when "play"
