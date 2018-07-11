@@ -44,7 +44,8 @@ def play(my_songs)
   tracks = 1..my_songs.length
   
   if my_songs.has_key?(input) == true 
-    puts "Playing #{my_songs[input]}"
+    puts "Playing #{input}"
+    
   else 
     puts "Invalid input, please try again."
   end
