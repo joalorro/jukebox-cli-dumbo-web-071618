@@ -43,8 +43,8 @@ def play(my_songs)
   
   tracks = 1..my_songs.length
   
-  if my_songs.include?(input) == true 
-    puts "Playing /#{song_list[ song_list.index(input) ]}/"
+  if my_songs.has_key?(input) == true 
+    puts "Playing #{my_songs[input]}"
   else 
     puts "Invalid input, please try again."
   end
