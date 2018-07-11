@@ -45,7 +45,7 @@ def play(my_songs)
   
   if my_songs.has_key?(input) == true 
     puts "Playing #{input}"
-    system 'open my_songs[input]'
+    system 'open #{my_songs[input]}'
   else 
     puts "Invalid input, please try again."
   end
