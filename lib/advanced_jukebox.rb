@@ -4,12 +4,12 @@
 
 my_songs = {
 "Go Go GO" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-"Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
+"LiberTeens" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/03.mp3',
+"Guiding Light" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/04.mp3',
+"Wolf" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/05.mp3',
+"Blue" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => 'Users/joalorro/desktop/dev/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
 def help
